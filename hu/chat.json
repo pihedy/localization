@@ -54,7 +54,7 @@
     "actions/predictNext": "AI-válasz generálása",
     "actions/predictNext/error": "Ai válasz generálása sikertelen",
     "actions/loadLastModel": "Az utoljára használt modell újratöltése",
-    "actions/loadLastModel/tooltip": "Kattintson a csevegéshez utoljára használt modell betöltéséhez:\n\n{{utolsó modell}}",
+    "actions/loadLastModel/tooltip": "Kattintson a csevegéshez utoljára használt modell betöltéséhez:\n\n{{lastModel}}",
     "actions/loadLastModel/error": "Nem sikerült betölteni az utoljára használt modellt.",
     "actions/continueCurrentModel": "Folytatás a jelenlegi modell használatával",
     "actions/continueCurrentModel/tooltip": "Kattintson a jelenlegi modell használatához: {{currentModel}}",
@@ -72,8 +72,8 @@
     "editMessageConfirm/keepEditing": "Szerkesztés folytatása",
     "editMessageConfirm/save": "Mentés",
     "editMessageConfirm/discard": "Módosítások elvetése",
-    "tokenCount/totalNotAvailable": "Tokenek: {{jelenlegi}}",
-    "tokenCount/totalAvailable": "Tokenek: {{jelenlegi}}/{{összesen}}",
+    "tokenCount/totalNotAvailable": "Tokenek: {{current}}",
+    "tokenCount/totalAvailable": "Tokenek: {{current}}/{{total}}",
     "tokenCount/totalAvailablePercentage": "A kontextus {{percentage}}%-ban megtelt",
     "tokenCount/contextOverflow": "A kontextus meghaladja a Modell jelenlegi kontextus méretét. A Context Oveflow házirendtől függően előfordulhat, hogy a kontextus csonka lesz, vagy az üzenet nem kerül elküldésre.",
     "modelLoader/manualLoadParams/label": "A model paramétereinek kézi kiválasztása",
@@ -121,4 +121,5 @@
     "noModels.indexing": "Modellfájlok indexelése... (ez eltarthat egy ideig)",
     "noModels.downloading": "Az első LLM letöltése...",
     "noModels": "Még nincsenek LLM-ek! Tölts le egyet a kezdéshez!"
+
 }
